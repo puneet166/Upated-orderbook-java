@@ -1,0 +1,91 @@
+{
+  "groups": [
+    {
+      "name": "gbe",
+      "type": "com.gitbitex.AppProperties",
+      "sourceType": "com.gitbitex.AppProperties"
+    },
+    {
+      "name": "kafka",
+      "type": "com.gitbitex.middleware.kafka.KafkaProperties",
+      "sourceType": "com.gitbitex.middleware.kafka.KafkaProperties"
+    },
+    {
+      "name": "mongodb",
+      "type": "com.gitbitex.middleware.mongodb.MongoProperties",
+      "sourceType": "com.gitbitex.middleware.mongodb.MongoProperties"
+    },
+    {
+      "name": "redis",
+      "type": "com.gitbitex.middleware.redis.RedisProperties",
+      "sourceType": "com.gitbitex.middleware.redis.RedisProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "gbe.account-message-topic",
+      "type": "java.lang.String",
+      "sourceType": "com.gitbitex.AppProperties"
+    },
+    {
+      "name": "gbe.l2-batch-order-book-persistence-interval",
+      "type": "java.lang.Integer",
+      "sourceType": "com.gitbitex.AppProperties",
+      "defaultValue": 20
+    },
+    {
+      "name": "gbe.l2-batch-order-book-size",
+      "type": "java.lang.Integer",
+      "sourceType": "com.gitbitex.AppProperties",
+      "defaultValue": 50
+    },
+    {
+      "name": "gbe.l2-order-book-persistence-interval",
+      "type": "java.lang.Integer",
+      "sourceType": "com.gitbitex.AppProperties",
+      "defaultValue": 10000
+    },
+    {
+      "name": "gbe.l3-order-book-persistence-interval",
+      "type": "java.lang.Integer",
+      "sourceType": "com.gitbitex.AppProperties",
+      "defaultValue": 10000
+    },
+    {
+      "name": "gbe.matching-engine-command-topic",
+      "type": "java.lang.String",
+      "sourceType": "com.gitbitex.AppProperties"
+    },
+    {
+      "name": "gbe.order-message-topic",
+      "type": "java.lang.String",
+      "sourceType": "com.gitbitex.AppProperties"
+    },
+    {
+      "name": "gbe.trade-message-topic",
+      "type": "java.lang.String",
+      "sourceType": "com.gitbitex.AppProperties"
+    },
+    {
+      "name": "kafka.bootstrap-servers",
+      "type": "java.lang.String",
+      "sourceType": "com.gitbitex.middleware.kafka.KafkaProperties"
+    },
+    {
+      "name": "mongodb.uri",
+      "type": "java.lang.String",
+      "sourceType": "com.gitbitex.middleware.mongodb.MongoProperties"
+    },
+    {
+      "name": "redis.address",
+      "type": "java.lang.String",
+      "sourceType": "com.gitbitex.middleware.redis.RedisProperties"
+    },
+    {
+      "name": "redis.password",
+      "type": "java.lang.String",
+      "sourceType": "com.gitbitex.middleware.redis.RedisProperties"
+    }
+  ],
+  "hints": []
+}
